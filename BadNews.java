@@ -9,6 +9,7 @@ public class BadNews {
 	}
 	
 	public void someQuotes(){
+		System.out.println("Here is a list of some Quotes");
 		System.out.println("Education's purpose is to replace an empty mind with an open one");
 	}
 
