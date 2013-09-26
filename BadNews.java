@@ -11,12 +11,17 @@ public class BadNews {
 		
 	}
 	
+	public void someQuotes(){
+		System.out.println("here are some funn quotes");
+	}
+	
 
 	public static void main(String[] args) {
 
 		BadNews justKidding = new BadNews();
 		
 		justKidding.dontBeSoSerious();
+		justKidding.someQuotes();
 		
 
 	}
