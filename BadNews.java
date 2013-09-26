@@ -21,7 +21,7 @@ public class BadNews {
 	}
 	
 	public void someQuotes(){
-		System.out.println("Here is a list of some Quotes");
+		System.out.println("Here is a list of some Quotes (WARNING: Not all are funny)");
 		for (String quote : quotes)
 			System.out.println(quote);
 	}
