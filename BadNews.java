@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+
 
 public class BadNews {
+	private ArrayList<String> quotes = new ArrayList();
 	
 	
 	public void dontBeSoSerious(){
@@ -8,9 +11,15 @@ public class BadNews {
 		
 	}
 	
+	public void addQuotes(){
+		quotes.add("Jokes about German sausage are the wurst");
+		quotes.add("Be kind to your dentist, He has fillings to");
+	}
+	
 	public void someQuotes(){
 		System.out.println("Here is a list of some Quotes");
-		System.out.println("Education's purpose is to replace an empty mind with an open one");
+		for (String quote : quotes)
+			System.out.println(quote);
 	}
 
 	public static void main(String[] args) {
@@ -18,9 +27,15 @@ public class BadNews {
 		BadNews justKidding = new BadNews();
 		
 		justKidding.dontBeSoSerious();
+		justKidding.addQuotes();
 		justKidding.someQuotes();
 		
 
 	}
 
 }
+
+
+
+
+
