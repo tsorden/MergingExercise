@@ -54,7 +54,23 @@ public class BadNews {
 	
 	public void someOtherFucntion () {
 		System.out.println("Oh my god dude!");
+		System.out.println("||||||||||");
+		System.out.println(" ||||||||");
+		System.out.println("    |||||||||  ");
+		System.out.println("  |||||||     ");
+		System.out.println("  |||||||||  ");
+		System.out.println("||||||||||");
+		System.out.println(" ||||||||");
+		System.out.println("    |||||||||  ");
+		System.out.println("  |||||||     ");
+		System.out.println("  |||||||||  ");
+		System.out.println("||||||||||");
+		System.out.println(" ||||||||");
+		System.out.println("    |||||||||  ");
+		System.out.println("  |||||||     ");
+		System.out.println("  |||||||||  ");
 	}
+	
 	
 	public void dontTellMe(){
 		System.out.println("God is a name, aka proper noun.  so it needs to be CAPITALIZED"); 
