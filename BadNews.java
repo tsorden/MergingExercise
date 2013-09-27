@@ -38,6 +38,11 @@ public class BadNews {
 		System.out.println("Oh my god dude!");
 	}
 	
+	public void dontTellMe(){
+		System.out.println("God is a name, aka proper noun.  so it needs to be CAPITALIZED"); 
+		System.out.println("IS THAT CONFRINATIONAL");
+	}
+	
 	public static void main(String[] args) {
 
 		BadNews justKidding = new BadNews();
@@ -48,6 +53,7 @@ public class BadNews {
 		justKidding.demotivator();
 		justKidding.goAway();
 		justKidding.someOtherFucntion();
+		justKidding.dontTellMe();
 		
 
 	}
