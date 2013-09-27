@@ -33,6 +33,7 @@ public class BadNews {
 	public void goAway() {
 		System.out.println("Let's Hear YOU tell some jokes");
 		//fixed that mess up spelling.
+		// Don't tell me how to spell when you can't use proper English
 	}
 	
 	public void someOtherFucntion () {
@@ -42,6 +43,7 @@ public class BadNews {
 	public void dontTellMe(){
 		System.out.println("God is a name, aka proper noun.  so it needs to be CAPITALIZED"); 
 		System.out.println("IS THAT CONFRINATIONAL");
+		System.out.println("That reminds me of that song 'go to church by some rapepr");
 	}
 	
 	public static void main(String[] args) {
