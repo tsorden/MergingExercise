@@ -31,7 +31,8 @@ public class BadNews {
 	}
 	
 	public void goAway() {
-		System.out.println("Let's Hear YOU tell sum jokes");
+		System.out.println("Let's Hear YOU tell some jokes");
+		//fixed that mess up spelling.
 	}
 	
 	public void someOtherFucntion () {
