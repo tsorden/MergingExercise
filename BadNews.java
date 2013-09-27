@@ -26,15 +26,19 @@ public class BadNews {
 			System.out.println(quote);
 	}
 
-
+	public void  demotivator () {
+		System.out.println("These jokes suck!");
+	}
+	
+	
 	public static void main(String[] args) {
 
 		BadNews justKidding = new BadNews();
 		
 		justKidding.dontBeSoSerious();
 		justKidding.addQuotes();
-
 		justKidding.someQuotes();
+		justKidding.demotivator();
 		
 
 	}
