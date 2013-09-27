@@ -34,6 +34,9 @@ public class BadNews {
 		System.out.println("Let's Hear YOU tell sum jokes");
 	}
 	
+	public void someOtherFucntion () {
+		System.out.println("Oh my god dude!");
+	}
 	
 	public static void main(String[] args) {
 
@@ -44,6 +47,7 @@ public class BadNews {
 		justKidding.someQuotes();
 		justKidding.demotivator();
 		justKidding.goAway();
+		justKidding.someOtherFucntion();
 		
 
 	}
