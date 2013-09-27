@@ -9,13 +9,25 @@ public class BadNews {
 	public void dontBeSoSerious(){
 		System.out.println("Whenever you feel sad, just remember that somewhere there in this world there's an idiot pulling a door that says 'PUSH'");
 
-		System.out.println("I always wanted to be a procrastinator, I just never got around to it");
-		
+		System.out.println("I always wanted to be a procrastinator, I just never got around to it");	
 	}
 	
 	public void countTo1010() {
 		for (int i = 0; i <= 1010; i++)
 			System.out.println(i);
+	}
+	
+	public void verifyMath() {
+		Boolean math = false;
+		System.out.println("Verifying 5 > 4");
+		if (5 > 4) {
+			math = true;
+		}
+		
+		if (math) {
+			System.out.println("Verified 5 > 4. The laws of the universe still work.");
+			System.out.println("Good I was worried there for a moment.");
+		}
 		
 	}
 	
@@ -36,7 +48,7 @@ public class BadNews {
 	
 	public void koolaidMan() {
 		//don't run this.
-		// I fixed your infin. while loop
+		// I fixed your infinite while loop
 		int count = 0;
 		while (true) {
 			System.out.println("Oh yeah!");
@@ -75,6 +87,7 @@ public class BadNews {
 		justKidding.dontTellMe();
 		justKidding.countTo1010();
 		justKidding.koolaidMan();
+		justKidding.verifyMath();
 		
 
 	}
