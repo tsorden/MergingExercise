@@ -36,8 +36,13 @@ public class BadNews {
 	
 	public void koolaidMan() {
 		//don't run this.
+		// I fixed your infin. while loop
+		int count = 0;
 		while (true) {
 			System.out.println("Oh yeah!");
+			count++;
+			if (count == 50)
+				break;
 		}
 	}
 	
