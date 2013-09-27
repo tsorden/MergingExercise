@@ -44,6 +44,21 @@ public class BadNews {
 
 	public void  demotivator () {
 		System.out.println("These jokes suck!");
+		System.out.println("||||||||||");
+		System.out.println(" ||||||||");
+		System.out.println("    |||||||||  ");
+		System.out.println("  |||||||     ");
+		System.out.println("  |||||||||  ");
+		System.out.println("||||||||||");
+		System.out.println(" ||||||||");
+		System.out.println("    |||||||||  ");
+		System.out.println("  |||||||     ");
+		System.out.println("  |||||||||  ");
+		System.out.println("||||||||||");
+		System.out.println(" ||||||||");
+		System.out.println("    |||||||||  ");
+		System.out.println("  |||||||     ");
+		System.out.println("  |||||||||  ");
 	}
 	
 	public void koolaidMan() {
