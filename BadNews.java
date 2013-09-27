@@ -13,10 +13,10 @@ public class BadNews {
 		
 	}
 	
-	public void countTo100() {
-		for (int i = 0; i < 100; i++)
+	public void countTo1010() {
+		for (int i = 0; i <= 1010; i++)
 			System.out.println(i);
-		System.out.println(100);
+		
 	}
 	
 	public void addQuotes(){
@@ -61,7 +61,7 @@ public class BadNews {
 		justKidding.goAway();
 		justKidding.someOtherFucntion();
 		justKidding.dontTellMe();
-		justKidding.countTo100();
+		justKidding.countTo1010();
 		
 
 	}
