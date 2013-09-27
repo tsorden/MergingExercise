@@ -34,6 +34,13 @@ public class BadNews {
 		System.out.println("These jokes suck!");
 	}
 	
+	public void koolaidMan() {
+		//don't run this.
+		while (true) {
+			System.out.println("Oh yeah!");
+		}
+	}
+	
 	public void goAway() {
 		System.out.println("Let's Hear YOU tell some jokes");
 		//fixed that mess up spelling.
@@ -62,6 +69,7 @@ public class BadNews {
 		justKidding.someOtherFucntion();
 		justKidding.dontTellMe();
 		justKidding.countTo1010();
+		justKidding.koolaidMan();
 		
 
 	}
