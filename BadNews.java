@@ -13,7 +13,11 @@ public class BadNews {
 		
 	}
 	
-	
+	public void countTo100() {
+		for (int i = 0; i < 100; i++)
+			System.out.println(i);
+		System.out.println(100);
+	}
 	
 	public void addQuotes(){
 		quotes.add("Jokes about German sausage are the wurst");
@@ -57,6 +61,7 @@ public class BadNews {
 		justKidding.goAway();
 		justKidding.someOtherFucntion();
 		justKidding.dontTellMe();
+		justKidding.countTo100();
 		
 
 	}
